@@ -1,0 +1,92 @@
+body{
+    background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,176,253,1) 50%, rgba(252,176,69,1) 100%);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.welcome{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    
+}
+.welcome .login-register-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: fit-content;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-top: 20px;
+    height: 50vh;
+    
+    
+}
+.welcome .login-register-container .signInPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 4px;
+
+
+}
+.welcome .login-register-container .signInPage input{
+    width: 100%;
+    margin: 4px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+.welcome .login-register-container .signInPage .buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 10px;
+}
+.welcome .login-register-container .signInPage .buttons button{
+     border: none;
+     border-radius: 15px;
+     font-size: 26px;
+     margin: 5px;
+     background-color: rgb(12, 8, 248);
+     cursor: pointer;
+     color: white;
+}
+.welcome .login-register-container .signInPage .buttons button:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.googleAuth{
+    border: 2px solid black;
+    font-size: 15px;
+    color: #333;
+    background-color: rgb(230, 255, 6);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.googleAuth:hover{
+    background-color: rgb(255, 255, 255);
+}
+.welcome .login-register-container .loginPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+
+}
